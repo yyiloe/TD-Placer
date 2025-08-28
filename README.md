@@ -1,12 +1,14 @@
 # TD-Placer
 ## [TD-Placer] Critical Path Aware Timing-Driven Global Placement for Large-Scale Heterogeneous FPGAs
 ![The overview of TD-Placer to perform timing-driven FPGA placement](./framework.png)
+## Introduction:
+TD-Placer has three main components: (1) net information extraction, (2) net delay prediction, and (3) global placement. The extraction component captures net topology under multi-pin driving scenarios using a graph-based method to handle crosstalk and coupling. The delay prediction component uses this topology with timing features in a nonlinear model to estimate end-to-end net delays. The global placement component jointly optimizes timing and wirelength via a unified quadratic objective, applying a fine-grained weighting scheme along critical paths. TD-Placer also includes a lightweight delay prediction algorithm for efficient inference.
+
 **Requirements:**
 1. **Python 3.8**
-2. **pytorch 2.1.0**
-3. **cudatoolkit 12.1**
-4. **scikit-learn 1.3.0**
-5. **torch-geometric 2.6.1**
+2. **pytorch >= 2.0.0 **
+3. **cudatoolkit >= 12.0 **
+4. **torch-geometric >= 2.0.0 **
 ***
 
 ## Dataset:
