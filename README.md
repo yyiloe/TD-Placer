@@ -6,9 +6,9 @@ TD-Placer has three main components: (1) net information extraction, (2) net del
 
 **Requirements:**
 1. **Python 3.8**
-2. **pytorch >= 2.0.0 **
-3. **cudatoolkit >= 12.0 **
-4. **torch-geometric >= 2.0.0 **
+2. **pytorch >= 2.0.0**
+3. **cudatoolkit >= 12.0**
+4. **torch-geometric >= 2.0.0**
 ***
 
 ## Dataset:
