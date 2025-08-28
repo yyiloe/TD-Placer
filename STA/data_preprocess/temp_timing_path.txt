@@ -1,0 +1,4 @@
+0
+design_1_i/xilinx_dma_pcie_ep_0/inst/xdma_0_i/inst/udma_wrapper/dma_top/dma_pcie_req/dma_pcie_rq/wcp_vld_ff_reg_i_3_n_0
+design_1_i/xilinx_dma_pcie_ep_0/inst/xdma_0_i/inst/udma_wrapper/dma_top/dma_pcie_req/dma_pcie_rq/wcp_vld_ff_i_7_n_0
+0.058
