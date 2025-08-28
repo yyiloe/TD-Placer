@@ -519,6 +519,6 @@ if __name__ == '__main__':
     piceoff_loc_dict = {}
 
     site_loc_dict, piceoff_loc_dict = processDeviceInfo(device_info_path + 'exportSiteLocation', device_info_path + 'PCIEPin2SwXY')
-    binGrid,startx,starty = processCong(device_info_path, net_info_cong, binWidth, binHeight, site_loc_dict, piceoff_loc_dict)
+    binGrid, startx, starty = processCong(device_info_path, net_info_cong, binWidth, binHeight, site_loc_dict, piceoff_loc_dict)
     parseNetinfo(ori_path_file, target_path_file, site_loc_dict, piceoff_loc_dict, binGrid, binWidth, binHeight, startx, starty)
     
