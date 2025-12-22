@@ -25,7 +25,7 @@ class Config:
 
         self.learning_rate = 1e-3
         self.weight_decay = 1e-4
-        self.lr_scheduler = 'cosine'  # 可选：'step', 'cosine', 'none'
+        self.lr_scheduler = 'cosine'  # 'step', 'cosine', 'none'
         self.step_size = 50
         self.gamma = 0.95
 
