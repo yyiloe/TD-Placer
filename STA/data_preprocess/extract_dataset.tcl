@@ -30,7 +30,6 @@ foreach curCell $logicCells {
 	set ref_name [get_property REF_NAME $curCell]
 	set type "0"
 
-	# 判断 REF_NAME，F开头为触发器，RAMB开头为BRAM，其他为0
 	if {[string match "F*" $ref_name]} {
     	set type "1"
 	} elseif {[string match "RAMB*" $ref_name]} {
