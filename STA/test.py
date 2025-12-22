@@ -114,11 +114,6 @@ def getRegressionMetric(all_logits_net_delays, all_logits_logic_delays, all_net_
         tqdm.write(f"R2_logic_delay Score: {r2_logic:.6f}")
     
     #tqdm.write(f"val_mean_logic_delay: {sum([x + 118 for x in all_logic_delays ])/len(all_logic_delays):.6f}")
-    '''y = np.array(all_logic_delays)
-    tqdm.write(f"标签最大值:{y.max()}")
-    tqdm.write(f"标签最小值:{y.min()}")
-    tqdm.write(f"标签标准差:{y.std()}")
-    tqdm.write(f"标签均值:{y.mean()}")'''
 
     return r2, r2_logic, mse_logic, mae_logic, mean_mae_logic, mean_mse_logic
 
