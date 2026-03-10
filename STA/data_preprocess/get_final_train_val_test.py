@@ -26,10 +26,10 @@ def merge_dict_pkls(folder_path, output_name):
     with open(output_path, 'wb') as f:
         pickle.dump(shuffled_dict, f)
 
-    print(f"✅ finish：{output_path}， {len(shuffled_dict)} keys")
+    print(f"finish：{output_path}， {len(shuffled_dict)} keys")
 
 
-base_dir = '/home/user/database/gy/GSGP/STA/dataset/processed_data'
+base_dir = ''
 
 
 for split in ['train', 'val', 'test']:
