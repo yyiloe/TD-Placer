@@ -74,7 +74,7 @@ foreach curCell $logicCells {
             set Numdrivern [llength $Celldrivern]
             if {$Numdrivern > 0} {
                 set locDriven [get_property LOC [get_cells $Celldrivern]]
-                set delay [get_property FAST_MAX [lindex [get_net_delays -of_objects [get_nets $outNet] -to [get_pins $pinDriven]] 0]]
+                set delay [get_property SLOW_MAX [lindex [get_net_delays -of_objects [get_nets $outNet] -to [get_pins $pinDriven]] 0]]
                 append buffer "inPin=> $pinDriven locDriven=> $locDriven celltype=> $curCelltype delay=> $delay\n"
             }
             }
