@@ -12,8 +12,6 @@ TD-Placer has three main components: (1) net information extraction, (2) net del
 ***
 
 ## Dataset:
-You can directly use the preprocessed dataset:
-`./STA/dataset/processed_data.zip` — preprocessed dataset ready to use.
 
 If you need to build the dataset yourself, we provide data preprocessing scripts with Vivado interface support:
 - **`./STA/data_preprocess/`** — scripts to extract device and netlist information directly from Vivado projects.
